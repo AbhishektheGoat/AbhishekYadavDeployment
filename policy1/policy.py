@@ -1,6 +1,6 @@
 import streamlit as st
 
-with open("policies.pdf", "rb") as pdf_file:
+with open("Policies.pdf", "rb") as pdf_file:
     PDFbyte = pdf_file.read()
 
 st.download_button(
